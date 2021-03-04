@@ -5,6 +5,8 @@ const kMainFontFamily = 'Roboto';
 
 // Font size
 const kTabFontSize = 20.00;
+const kListHeading = 18.00;
+const kFontSmall = 10.00;
 
 // Colors
 const kMainBlue = Color(0xFF1B1AD5);
@@ -15,4 +17,5 @@ const kTabBarColor = Color(0xFFe8e8e8);
 const kBackgroundColor = Color(0xFFFAFAFA);
 
 // EdgeInsets
-const kTopTabBarInset = 60.00;
+const kTopTabBarInset = 40.00;
+const kLeftInset = 20.00;

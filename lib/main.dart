@@ -4,6 +4,7 @@ import 'package:blucos/screens/screens.dart';
 import 'package:blucos/utilities/utilities.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+//import 'package:blucos/utilities/src/router.dart';
 
 void main() {
   runApp(MyApp());
@@ -96,7 +97,7 @@ class _MyAppState extends State<MyApp> {
             },
           ),
         ),
-        onGenerateRoute: Router.getRoute,
+        onGenerateRoute: Rouuter.getRoute,
       ),
     );
   }

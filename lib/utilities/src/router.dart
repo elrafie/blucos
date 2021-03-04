@@ -2,7 +2,7 @@ import 'package:blucos/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 ///A class that handles route/screen navigation for this app.
-class Router {
+class Rouuter {
   ///Returns a named route corresponding to the [settings.name] argument.
   static Route<dynamic> getRoute(RouteSettings settings) {
     switch (settings.name) {
