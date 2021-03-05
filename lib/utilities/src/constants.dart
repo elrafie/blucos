@@ -19,3 +19,10 @@ const kBackgroundColor = Color(0xFFFAFAFA);
 // EdgeInsets
 const kTopTabBarInset = 40.00;
 const kLeftInset = 20.00;
+
+// MapBox API
+// For now it's just a public key that mapbox give us to use.
+const mapBoxToken = 'pk.eyJ1Ijoic2FuZHJvLW1pY3pldnNraSIsImEiOiJja2t2YWRtYTIxMzkyMnBwaDh0MGd5eXExIn0.2yKKDToUACE4fy1aThNe_w';
+
+// Url template must be the third party > CARTO style
+const mapBoxStyleUrl = 'https://api.mapbox.com/styles/v1/sandro-miczevski/ckkvg0uc0370x17o92542xdn9/tiles/256/{z}/{x}/{y}@2x?access_token=';
