@@ -16,7 +16,7 @@ class MapScreen extends StatelessWidget {
     searchBarStyle: SearchBarStyle(
       backgroundColor: Colors.white,
       borderRadius: BorderRadius.all(Radius.circular(60)),
-      padding: EdgeInsets.only(left:18.0),
+      padding: EdgeInsets.only(left:12.5),
     ),
     hintText: "Search",
     onSearch: null,
@@ -87,3 +87,5 @@ class _MapPageState extends State<MapPage> {
     );
   }
 }
+
+
